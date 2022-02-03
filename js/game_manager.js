@@ -260,7 +260,7 @@ GameManager.prototype.timer = function () {
 
     if (this.dd != 1) {
       if (this.birdpos < range[this.ab][0] || this.birdpos > range[this.ab][1]) {
-        this.score -= Math.floor(this.score - 2); // cut down the integer part
+        this.score -= Math.floor(2); // cut down the integer part
         this.dd = 1;
       }
     }
