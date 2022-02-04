@@ -249,7 +249,7 @@ GameManager.prototype.timer = function () {
   if (this.birdpos > 1) this.birdpos = 1;
   if (this.birdpos < -0.25) this.birdpos = -0.25;
 
-  this.score += 0.01 + this.score / 1000;
+  this.score += 0.01 + this.score / 200;
 
   // check
 
