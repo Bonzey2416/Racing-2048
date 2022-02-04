@@ -400,10 +400,34 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-8192 .tile-inner {
         font-size: 17px; } }
+  .tile.tile-16384 .tile-inner {
+    color: #f9f6f2;
+    background: #30aa65;
+    box-shadow: 0 0 50px 15px rgba(0, 255, 116, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.6);
+    font-size: 30px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-16384 .tile-inner {
+        font-size: 14px; } }
+  .tile.tile-32768 .tile-inner {
+    color: #f9f6f2;
+    background: #008080;
+    box-shadow: 0 0 60px 17px rgba(0, 255, 255, 1), inset 0 0 0 2px rgba(255, 255, 255, 0.65);
+    font-size: 30px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-32768 .tile-inner {
+        font-size: 14px; } }
+  .tile.tile-65536 .tile-inner {
+    color: #f9f6f2;
+    background: #8080ff;
+    box-shadow: 0 0 80px 20px rgba(192, 128, 255, 1), inset 0 0 0 2px rgba(255, 255, 255, 0.7);
+    font-size: 30px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-65536 .tile-inner {
+        font-size: 14px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
-    font-size: 30px; }
+    font-size: 16px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
         font-size: 10px; } }
