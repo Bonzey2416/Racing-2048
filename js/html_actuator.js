@@ -23,7 +23,9 @@ HTMLActuator.prototype.actuate = function (grid, metadata) {
 
   var s = Math.floor(metadata.score);
 
-       if (s > 2048) classes.push("tile-super")
+       if (s > 8192) classes.push("tile-super")
+  else if (s > 4096) classes.push("tile-8192")
+  else if (s > 2048) classes.push("tile-4096")
   else if (s > 1024) classes.push("tile-2048")
   else if (s >  512) classes.push("tile-1024")
   else if (s >  256) classes.push("tile-512")
